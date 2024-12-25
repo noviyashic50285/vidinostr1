@@ -1,6 +1,5 @@
 * { margin: 0; padding: 0; 
-box-sizing: border-box;
-text-transform: capitalize;
+box-sizing: border-box;  /* text-transform: capitalize; */
 }
 .heading{
     color: #444;
@@ -18,7 +17,7 @@ text-transform: capitalize;
 .container .main-video{
     background: #fff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 2px;
 }
 .container .main-video video{
 width: 100%;
@@ -33,7 +32,7 @@ padding-bottom: 15px;
 .container .video-list{
     background: #fff;
     border-radius: 5px;
-    height: 520px;
+    height: 590px;
     overflow-y: scroll;
 }
 .container .video-list::-webkit-scrollbar{
@@ -86,13 +85,5 @@ padding-bottom: 15px;
     grid-template-columns: 1fr;
 }    
 }
-
-
-
-
-
-
-
-
 
 
